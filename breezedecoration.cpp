@@ -768,7 +768,7 @@ namespace Breeze
         setBorders(QMargins(left, top, right, bottom));
 
         // extended sizes
-        const int extSize = s->largeSpacing();
+        const qreal extSize = KDecoration3::snapToPixelGrid(s->largeSpacing(), w->nextScale());
         int extHSides = 0;
         int extVSides = 0;
         if (borderSize() <= 1)
