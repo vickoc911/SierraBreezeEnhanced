@@ -36,7 +36,6 @@
 #include <KDecoration3/DecorationButtonGroup>
 #include <KDecoration3/DecorationSettings>
 #include <KDecoration3/DecorationShadow>
-#include <KDecoration3/ScaleHelpers>
 
 #include <KConfigGroup>
 #include <KColorUtils>
